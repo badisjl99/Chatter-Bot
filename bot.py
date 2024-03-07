@@ -1,4 +1,4 @@
-import pymongo
+8import pymongo
 import random
 import time
 from telegram import Bot, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
@@ -74,4 +74,4 @@ if __name__ == "__main__":
     while True:
         print("Bot is Running...")
         send_movie_to_channel()
-        time.sleep(900)
+        time.sleep(90)
