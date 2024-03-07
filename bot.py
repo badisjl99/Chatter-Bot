@@ -72,5 +72,6 @@ def send_movie_to_channel():
 
 if __name__ == "__main__":
     while True:
+        print("Bot is Running...")
         send_movie_to_channel()
-        time.sleep(10)
+        time.sleep(900)
